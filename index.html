@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet">
+
+</head>
+<body style="background-image: url(Las\ Pinas\ Facade.jpg); background-position: center;">
+    
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"> <img src="butterfly.png" alt="logo" height="50px"> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon">
+            </span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target="_self">Enroll Now</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button"> Search 
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="row">
+    <h5 style="color: azure;">OBMC Student Enrollment Form</h5>
+    </div>
+    
+
+    <div class="container mt-3 rounded">
+        <form>
+            <h3>Student Information</h3>
+            <div class="row">
+                <div class="col">
+    <label for="email">First Name:</label>
+    <input type="text" class="form-control" id="email" placeholder="First Name" name="email">
+    </div>
+    
+    <div class="col">
+        <label for="pwd">Last Name:</label>
+            <input type="text" class="form-control" id="pwd" placeholder="Last Name" name="pswd">
+        </div> 
+        </div>
+
+    <div class="row">
+        <div class="col">
+        <label for="pwd">Birth Date:</label>
+            <input type="date" class="form-control">
+        </div>
+
+        <div class="col">
+        <label for="pwd">Gender</label>
+        <br>
+
+            <select class="form-select" id="sel1" name="sellist1">
+                <option>Male</option>
+                <option>Female</option>            
+            </select>
+        </div>
+
+        <div class="col">
+        <label for="pwd">Grade Level</label>
+            <select class="form-select" id="sel1" name="sellist1">
+                <option>Casa</option>
+                <option>Primary</option>   
+                <option>Intermediate</option>
+                <option>High School</option> 
+                <option>Senior High School</option>                   
+            </select>
+        </div>
+        
+        <div class="row">
+            
+        </div>
+        </div>
+
+        <br>
+        <h3>Contact Details</h3>
+
+         <div class="row">
+            <div class="col">
+            <label>Email Address:</label>
+            <input type="text" class="form-control" id="email" placeholder="someone@gmail.com">
+        </div>
+        </div>
+
+         <div class="row">
+            <div class="col">
+            <label>Contact Number:</label>
+            <input type="text" class="form-control" id="email" placeholder="Contact Number">
+        </div>
+        </div>
+
+        <br>
+        <h3>Other Information</h3>
+        <label>Mode of Learning:</label>
+
+        <div class="row">
+            <div class="form-check">
+                <input type="radio" name="option3" value="yes" id="1">
+            <label class="form-check-label" for="1"> Online</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-check">
+                <input type="radio" name="option3" value="yes" id="2">
+            <label class="form-check-label" for="2"> Face-to-Face</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-check">
+             <div class="form-check">
+                <input type="checkbox" name="option3" value="yes" id="2">
+                <label class="form-check-label" for="2">I confirm that the information provided is true and acceptable.</label>
+                </div>
+            </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-primary btn-sm">Submit Application </button>
+        </div>
+
+   
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+</html>
